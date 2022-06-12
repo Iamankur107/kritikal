@@ -4,62 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Calculator App</title>
 </head>
 <body>
-    <h1>Kritikal Internee</h1>
-    <hr>
-    <hr>
-
-    <div id="ankurdes">
-        <h2>Ankur</h2>
-    <div id="mypic"></div>
-    <p>Hello, This is Ankur.I'm from Etawah,UP.</p>
-    <p>I am currently persuing electrical eng. from IIT (BHU) Varanasi. And resing here</p>
-    <p>yay yay yay</p>
-    <button onclick="changecolor()">sumbit</button>
+    <h1 id="title">Calculator App</h1>
+    <div class="inputdata">
+        <div class="f_no">
+            <label for="Fnum">Enter First Number</label>
+            <input type="number" name="FirstNumber" id="Fnum" value="Fnumber">
+        </div>
+        <div class="s_no">
+            <label for="Snum">Enter Second Number</label>
+            <input type="number" name="SecondNumber" id="Snum" value="Snumber">
+        </div>
     </div>
-    <style>
-        .hankur{
-            text-align: center;
-            color: black;
-            background-color: white;
-            }
-
-        .addcolor{
-            background-color: aqua;
-            color:grey;
-            text-align: center;
-        }
-        .ankurdes{
-            text-align: center;
-        }
-    </style>
-
+    <div class="calculator">
+        <div class="functions">
+            <h2 id="title">Click Any Of The Operation</h2>
+            <ul>
+                <li><button onclick="A()">Addition</button></li>
+                <li><button onclick="S()">Subtraction</button></li>
+                <li><button onclick="M()">Multiplication</button></li>
+                <li><button onclick="D()">Division</button></li>
+            </ul>
+        </div>
+    </div>
+    <section id="add">
+        <p id="resadd"></p>
+    </section>
+    <section id="sub">
+        <p id="ressub"></p>
+    </section>
+    <section id="mult">
+        <p id="resmult"></p>
+    </section>
+    <section id="div">
+        <p id="resdiv"></p>
+    </section>
     <script>
-
-        let ison=false;
-       function changecolor()
-       {
-           if(ison===false)
-        {
-            var para=document.getElementById("ankurdes");
-            para.classList.add("addcolor");
-            ison=true;
-            $('#mypic').add('<img id="theImg" src="./image/mypic.jpeg" />');
-        }
-
-        else {
-          var para=document.getElementById("ankurdes");
-          para.classList.remove("addcolor");
-          para.classList.add("hankur");
-          ison=false;
-        }
-       }
-
-       
+            let a=document.getElementById('Fnum');
+            let b=document.getElementById('Snum');
+            function A(){
+                //Ankur'S Work 
+            } 
+            function S(){
+                //Harish'S Work
+            }
+            function M(){
+                //Ankur'S Work
+            }
+            function D(){
+                //Harish'S Work
+            }
     </script>
 </body>
 </html>
