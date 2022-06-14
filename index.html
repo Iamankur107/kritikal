@@ -10,11 +10,11 @@
     <h1 id="title">Calculator App</h1>
     <div class="inputdata">
         <div class="f_no">
-            <label for="Fnum">Enter one Number</label>
+            <label for="Fnum">Enter First Number</label>
             <input type="number" name="FirstNumber" id="Fnum" value="Fnumber">
         </div>
         <div class="s_no">
-            <label for="Snum">Enter other Number</label>
+            <label for="Snum">Enter Second Number</label>
             <input type="number" name="SecondNumber" id="Snum" value="Snumber">
         </div>
     </div>
@@ -52,9 +52,9 @@
             } 
             function S(){
                 //Harish'S Work
-                let c=parseInt(a.value)-parseInt(b.value);
-                let x=document.getElementById("ressub");
-                x.append('subtraction of a and b ==',+c);
+                let m=document.getElementById("ressub");
+                let n=parseInt(a.value)-parseInt(b.value);
+                m.append('subtraction of a and b ==',+n);
             }
             function M(){
                 //Ankur'S Work
