@@ -4,9 +4,7 @@ import './count.css'
 import { Chart as ChartJS } from 'chart.js/auto'
 import { Chart }  from 'react-chartjs-2'
 import { Line } from 'react-chartjs-2';
-// import data from './data'
 import { Icon } from '@iconify/react';
-// import data from './data';
 
 
 const date=new Date();
@@ -23,6 +21,7 @@ function Count(){
     fetch("/vc").then(res =>
       res.json().then(data => {
         // Setting a data from api
+        console.log(data);
         setdata({
           xaxis:[data[6].date,data[5].date,data[4].date,data[3].date,data[2].date,data[1].date,data[0].date]
         });

@@ -18,7 +18,7 @@ cursor = conn.cursor()
 #     Tractor interger NOT NULL,
 #     Total interger NOT NULL
 # )"""
-sql_query="""insert into vehicles values(11,'06-07-2022',1,2,3,4,5,6,7,8,9,19,64)
+sql_query="""insert into vehicles values(10,'10-07-2022',1,2,3,4,5,6,7,8,9,19,64)
 """
 
 cursor.execute(sql_query)

@@ -2,16 +2,34 @@ from distutils.log import debug
 import sqlite3
 from flask import Flask, request, jsonify
 from flask_restful import Resource, Api
+# from db import mysql
+# import pymysql
 
 app = Flask(__name__)
 api = Api(app)
-
+# config = {
+#         # 'user': 'root',
+#         # 'password': 'root',
+#         'host': 'mydb',
+#         'port': '3306',
+#         'database': 'main'
+#     }
+# connection = mysql.connector.connect(**config)
 def db_conn():
     conn = None
-    try:
-        conn = sqlite3.connect('../Databases/tdb.sqlite')
-    except sqlite3.error as e:
-        print(e)
+    # conn = mysql.connect()
+    # cursor = conn.cursor(pymysql.cursors.DictCursor)
+    # try:
+    #     conn= sqlite3.connect(**config)
+    # except sqlite3.error as e:
+    #     # print(e)
+    #     print("connection not established")
+
+    # try:
+    conn= sqlite3.connect("./Databases/tdb.sqlite")
+    # except sqlite3.error as e:
+    #     print(e)
+    print("connection not established")
     return conn
 
 
