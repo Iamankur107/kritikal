@@ -1,0 +1,18 @@
+/* .Bodycontent{
+    background-color: #2C3639;
+} */
+
+.container{
+    display: flex;
+
+}
+.others{
+    flex:5;
+    color: rgb(26, 2, 113);
+}
+/* .App-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+

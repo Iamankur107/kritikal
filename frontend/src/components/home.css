@@ -1,0 +1,78 @@
+.cityheadertitle{
+    width: fit-content;
+    margin: 5px auto ;
+    font-weight: normal !important;
+
+}
+h1{
+    font-weight: normal !important;
+}
+
+.home_container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.countbox{
+    display: flex;
+    margin: 30px 0px;
+    padding: 0 50px;
+    width: 200px;
+    height: 200px;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(156,156,156,1);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(156,156,156,1);
+    box-shadow: 6px 6px 5px 0px rgba(156,156,156,1);
+    border-radius: 15px;
+    background-color: lightgrey;
+    font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Sacramento', cursive;
+}
+
+.speedbox{
+    display: flex;
+    margin: 30px 0px;
+    padding: 0 50px;
+    width: 200px;
+    height: 200px;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(156,156,156,1);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(156,156,156,1);
+    box-shadow: 6px 6px 5px 0px rgba(156,156,156,1);
+    border-radius: 15px;
+    background-color: lightgrey;
+    font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Sacramento', cursive;
+}
+.congestionbox{
+    display: flex;
+    margin: 30px 0px;
+    padding: 0 50px;
+    width: 200px;
+    height: 200px;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(156,156,156,1);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(156,156,156,1);
+    box-shadow: 6px 6px 5px 0px rgba(156,156,156,1);
+    border-radius: 15px;
+    background-color: lightgrey;
+    font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Sacramento', cursive;
+}
+.numbers{
+    font-size: 18px;
+    align-items: center;
+    margin: 10px 30px;
+}

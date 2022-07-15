@@ -1,0 +1,43 @@
+.dashboard{
+    flex:1;
+    height:calc(100vh - 100.475px) ;
+    background-color: rgb(251, 251, 255);
+    position: sticky;
+    top: 100.475px;
+    /* background-color: #2C3639; */
+}
+
+.dashboardWrapper{
+    padding: 20px;
+    color: #555;
+}
+.dashboardTitle{
+    color: rgb(172, 172, 172);
+    font-size: 30px;
+}
+.dashboardList{
+    list-style: none;
+    padding: 5px;
+}
+.dashboardListItem{
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: orange;
+    width: 175px;
+    
+}
+.icon{
+    padding-right: 5px;
+    font-size: 13px;
+}
+.dashboardListItem.active,
+.dashboardListItem:hover{
+    background-color: rgb(23, 5, 40);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,21 @@
+.Barchart{
+    margin:30px auto 0px auto;
+    display:flex;
+    align-items: center;
+    width: 50%;
+}
+
+.speed_attribute{
+    margin: 30px 0 auto 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+p{
+    margin-bottom: 10px;
+}
+.style{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
