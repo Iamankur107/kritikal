@@ -1,0 +1,46 @@
+.count-title{
+    display: flex;
+    justify-content: space-between;
+    margin:30px auto 0;
+    
+}
+h3{
+    margin: 0px auto;
+    align-items: center;
+}
+.choose{
+    display: flex;
+    align-items: center;
+}
+label{
+    padding: 10px;
+}
+select{
+    padding: 10px;
+    margin-right: 10px;
+}
+.count-page-display{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.count_attribute{
+    margin: 30px 0 auto 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.linechart{
+ margin:30px auto 0px auto;
+ display:flex;
+ align-items: center;
+ width: 50%;
+}
+p{
+    font-size: 16px;
+    margin: 10px 0px;
+}
